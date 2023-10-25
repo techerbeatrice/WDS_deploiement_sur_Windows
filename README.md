@@ -16,9 +16,7 @@ __
 
 **Convertir l'image iso en format wim**      
 
-![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/99ea283d-0330-4b4f-a088-fd04e10ca968)
-
-Décocher **lecture seule** dans les propriétés du fichier **install esd**   
+![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/99ea283d-0330-4b4f-a088-fd04e10ca968) 
 
 ![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/c2c73483-8ad1-4718-814d-279a06033460)
 
@@ -32,10 +30,13 @@ Commandes à saisir dans le terminal de commande en mode administrateur pour la 
 
 **Convertir l'image install.esd en install.wim**  
 le chiffre **1** correspond à **windows professionnel** donc remplacer X par 1 
-**L'exportation de l'image jusqu'à 100% prend un certain temps**  
+L'exportation de l'image jusqu'à 100% prend un certain temps     
 
 ![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/f5d5b6ca-6d76-4484-8e09-1ef1d8e1a04d)
 
+___
+
+![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/5faae3ac-43c3-4740-9c3c-adbda8988d21)
 
 
 
