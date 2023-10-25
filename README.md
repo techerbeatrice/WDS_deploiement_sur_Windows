@@ -14,22 +14,25 @@ __
 
 ![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/322ad814-418c-4437-a81d-8d4fa3c0eb83)
 
-**Convertir l'image iso en format winm**      
+**Convertir l'image iso en format wim**      
 
 ![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/99ea283d-0330-4b4f-a088-fd04e10ca968)
 
-![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/bd0f0b88-1a39-4a88-b46b-b764298504d2)
+Décocher **lecture seule** dans les propriétés du fichier **install esd**   
+
+![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/c2c73483-8ad1-4718-814d-279a06033460)
 
 Commandes à saisir dans le terminal de commande en mode administrateur pour la conversion iso en wim   
 
-dism /Get-WimInfo /WimFile:F:/sources/install.esd   
+**dism /Get-WimInfo /WimFile:F:/sources/install.esd**     
 
-dism /export-image /SourceImageFile:D:\sources\install.esd /SourceIndex:X /DestinationImageFile:C:\Users\Administrateur\Downloads\install.wim /Compress:max /CheckIntegrity   
+**_dism /export-image /SourceImageFile:F:\sources\install.esd /SourceIndex:X /DestinationImageFile:C:\Users\Administrateur\Downloads\install.wim /Compress:max /CheckIntegrity_**     
 
 ![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/5c877609-fd53-4171-a9f2-a51524b90c80)
 
-Convertir l'image install.esd en install.wim  
-le chiffre 1 correspond à windows professionnel   
+**Convertir l'image install.esd en install.wim**  
+le chiffre **1** correspond à **windows professionnel** donc remplacer X par 1 
+**L'exportation de l'image jusqu'à 100% prend un certain temps**  
 
 ![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/f5d5b6ca-6d76-4484-8e09-1ef1d8e1a04d)
 
