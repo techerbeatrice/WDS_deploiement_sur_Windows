@@ -29,8 +29,8 @@ Commandes à saisir dans le terminal de commande en mode administrateur pour la 
 ![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/5c877609-fd53-4171-a9f2-a51524b90c80)
 
 **Convertir l'image install.esd en install.wim**  
-le chiffre **1** correspond à **windows professionnel** donc remplacer X par 1 
-L'exportation de l'image jusqu'à 100% prend un certain temps     
+le chiffre **1** correspond à **windows professionnel** donc remplacer X par 1    
+L'exportation de l'image jusqu'à **100%** prend un certain temps      
 
 ![image](https://github.com/techerbeatrice/WDS_deploiement_sur_Windows/assets/138071140/f5d5b6ca-6d76-4484-8e09-1ef1d8e1a04d)
 
